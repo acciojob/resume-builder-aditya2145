@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './../styles/App.css';
 import Profile from './Profile';
 import Education from './Education';
@@ -5,7 +6,6 @@ import Skills from './Skills';
 import Projects from './Projects';
 import SocialMedia from './SocialMedia';
 import ResumePreview from './ResumePreview';
-import { useState } from 'react';
 
 function App() {
     const [currentIndex, setCurrentIndex] = useState(0);
